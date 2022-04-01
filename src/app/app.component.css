@@ -26,3 +26,7 @@
     height: 20px;
     cursor: pointer !important;
 }
+
+.container {
+    margin-top: 2rem;
+}

@@ -4,36 +4,36 @@ import { AotfilterModel } from 'aot-filter';
 export const ELEMENT_DATA = [
   {
     id: 1,
-    name: 'Arpitha',
-    email_address: 'arpitha.ns@gmail.com',
+    name: 'John',
+    email_address: 'john@gmail.com',
     mobile_number: '8888888888',
     date: new Date('2022-03-31')
   },
   {
     id: 2,
-    name: 'Kishore',
-    email_address: 'kishore@gmail.com',
+    name: 'Liam',
+    email_address: 'liam@gmail.com',
     mobile_number: '7777777777',
     date: new Date('2022-03-05')
   },
   {
     id: 3,
-    name: 'Smera',
-    email_address: 'smera@gmail.com',
+    name: 'James',
+    email_address: 'james@gmail.com',
     mobile_number: '6666666666',
     date: new Date('2022-03-28')
   },
   {
     id: 4,
-    name: 'Amrutha',
-    email_address: 'amrutha@gmail.com',
+    name: 'Rober',
+    email_address: 'robert@gmail.com',
     mobile_number: '5555555555',
     date: new Date('2022-03-29')
   },
   {
     id: 5,
-    name: 'Akshatha',
-    email_address: 'akshatha@gmail.com',
+    name: 'Henry',
+    email_address: 'henry@gmail.com',
     mobile_number: '4444444444',
     date: new Date('2022-03-02')
   }
@@ -52,9 +52,9 @@ export class AppComponent {
       aotMenuText: 'Filter',
       iconWithText: 'filter_list',
       textClass: 'btn btn-primary',
-      iconCss: {
-        color: 'white'
-      }
+      // iconCss: {
+      //   color: 'white'
+      // }
     },
     clearText: 'Clear All',
     filterCategory: {
@@ -98,10 +98,10 @@ export class AppComponent {
         }
       ]
     },
-    matMenuFilterCss: 'mat-menu-filter-new',
+    // matMenuFilterCss: 'mat-menu-filter-new',
     clearTextCss: 'clear-text-row',
-    chipCss: 'mat-chip-custom',
-    chipCssSelected: 'mat-chip-custom-selected'
+    // chipCss: 'mat-chip-custom',
+    // chipCssSelected: 'mat-chip-custom-selected'
   }
 
   onFilterApply($event: AotfilterModel.AotResponse) {

@@ -1,0 +1,21 @@
+<lib-aot-filter [filterInput]="filterInput" (aotFilterResponse)="onFilterApply($event)"></lib-aot-filter>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col" *ngFor="let column of displayColumns">{{column}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of filterInput.dataSource">
+        <td>{{data.id}}</td>
+        <td>{{data.name}}</td>
+        <td>{{data.mobile_number}}</td>
+        <td>{{data.email_address}}</td>
+        <td>{{data.date | date: 'shortDate'}}</td>
+      </tr>
+    </tbody>
+</table>
+<div *ngIf="!filterInput.dataSource.length">
+    No data found
+</div>

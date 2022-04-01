@@ -1,0 +1,28 @@
+::ng-deep .mat-menu-filter-new {
+    max-width: 550px !important;
+    width: 550px;
+    max-height: 250px;
+    height: 400px;
+    overflow: auto;
+}
+
+::ng-deep .clear-text-row {
+    color: #000;
+}
+
+::ng-deep .header-font {
+    font-weight: bold;
+}
+
+::ng-deep .mat-chip-custom-selected {
+    background-color: #873600 !important;
+    color: #FDF2E9 !important;
+    height: 20px;
+}
+
+::ng-deep .mat-chip-custom {
+    background-color: #FDF2E9 !important;
+    color: #873600 !important;
+    height: 20px;
+    cursor: pointer !important;
+}
